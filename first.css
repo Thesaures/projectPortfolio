@@ -1,0 +1,10 @@
+.first{
+    display: flex;
+    width: 100%;
+}
+.left1{
+    flex: 1;
+}
+.left2{
+    flex: 1;
+}

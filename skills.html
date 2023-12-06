@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+</head>
+<body>
+    
+    <div class="right1" >
+        <a   href="first.html">Home</a>
+        <a  href="about.html" target="_blank" >About Me</a>
+        <a  href="education.html" target="_blank">Education</a>
+        <a  id="active" href="skills.html" target="_blank">Skills</a>
+        <a  href="contact.html" target="_blank">Contact</a>
+    </div>
+
+    <div id="myPlot" style="width:100%;max-width:1000px"></div>
+    
+    <script>
+    const xArray = ["Communication", "Problem-solving", "Time management", "Basic Coding Skills"];
+    const yArray = [35, 20, 20, 30];
+    
+    const layout = {title:""};
+    
+    const data = [{labels:xArray, values:yArray, hole:.4, type:"pie"}];
+    
+    Plotly.newPlot("myPlot", data, layout);
+    </script>
+    
+    </body>
+</html>
