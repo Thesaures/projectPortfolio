@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" href="pageOne.css">
+<style>
+  .pie:before{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  radial-gradient(farthest-side,red calc(99% - var(--b)),blue calc(100% - var(--b)));
+}
+</style>
+<body>
+<div class="pie animate" style="--p:20"> 20%</div>
+<div class="pie animate" style="--p:40;--c:darkblue;--b:10px"> 40%</div>
+<div class="pie no-round" style="--p:20;--c:purple;--b:40%"> 60%</div>
+<div class="pie animate no-round" style="--p:80;--c:orange;"> 80%</div>
+<div class="pie animate" style="--p:90;--c:lightgreen"> 90%</div>
+      
+
+</body>
+</html>

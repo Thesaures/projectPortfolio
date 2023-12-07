@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+.left1{
+    background-color: blanchedalmond;
+    padding: 30%;
+    background-image: url(images/image.png.jpg);
+    background-size: 100% 100%;
+}
+.fir{
+    position: relative;
+}
+
+
+
+.rig{
+  flex: 1;
+  background-color: blueviolet;
+}
+
+
+.na{
+    text-shadow: 2px 2px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    color:black;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.one{
+  text-shadow: 2px 2px;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    color:black;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.van{
+  text-shadow: 2px 2px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  color:black;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.right1{
+   background-color:grey;
+   padding: 5%;
+   padding-bottom: 25px;
+   padding-top: 25px;
+}
+.right1 a{
+  text-decoration: none;
+  padding-left: 12%;
+  font-size: larger;
+  color: white;
+}
+#active{
+    color: red;
+}
+
+.right1 a:hover{
+    color: red;
+}
+
+
+
+/* first.html*/
+.edu{
+    padding: 20%;
+    background-image: url(images/books.jpg);
+    background-size: 100% 100%;
+}
+.all{
+    position:relative;
+}
+
+/*table{
+    font-style: italic;
+    font-size: x-large;
+}
+td{
+    padding-bottom: 30px;
+    text-align: center;
+}
+th{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}*/
+.cat{
+  display: flex;
+  position: absolute;
+}
+.b-tech{
+  font-style: italic;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  background-color:darkgray;
+  box-shadow: 10px 10px;
+  border: solid black;
+  border-width: 1px;
+  position: absolute;
+  text-align: center;
+  bottom: 60%;
+  margin-right: 100px;
+  height: 50px;
+  overflow: hidden;
+}
+.b-tech:hover{
+  height: fit-content;
+}
+.plus{
+  font-style: italic;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  background-color:darkgray;
+  box-shadow: 10px 10px;
+  border: solid black;
+  border-width: 1px;
+  position:absolute;
+  bottom: 60%;
+  left: 40%;
+  margin-right: 100px;
+  height: 50px;
+  overflow: hidden;
+}
+.plus:hover{
+  height: fit-content;
+}
+.ten{
+  font-style: italic;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  background-color:darkgray;
+  box-shadow: 10px 10px;
+  border: solid black;
+  border-width: 1px;
+  position:absolute;
+  margin-right: 100px;
+  bottom: 60%;
+  left: 60%;
+  flex: 1;
+  height: 50px;
+  overflow: hidden;
+}
+.ten:hover{
+  height: fit-content;
+}
+
+.hello{
+    padding: 25%;
+    background-image: url(images/contact2.jpg);
+    background-size: 100% 100%;
+}
+.hai{
+    position:relative;
+}
+.hh{
+  position: absolute;
+  top:150px;
+}
+.ph{
+  padding-bottom: 40px;
+}
+.ph:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.con{
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 200px;
+    
+}
+.phon{
+    
+    position: absolute;
+    top: 30%;
+    left: 200px;
+    
+}
+.email{
+    
+    position: absolute;
+    top: 35%;
+    left: 200px;
+}
+
+/* animation paragraph*/
+.para{
+    font-size: x-large;
+    font-style: italic;
+}
+.para{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* animation paragraph*/
+.out{
+    padding: 25%;
+    background-image: url(images/about.jpg);
+    background-size: 100% 100%;
+}
+.ab{
+    position: relative;
+}
+.para{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+}
+/* list animati
+
+/* style for table*/
+
+table { 
+    width: 700px; 
+    margin: auto; 
+    text-align: center; 
+    table-layout: fixed; 
+} 
+table, 
+td, 
+tr { 
+    padding: 12px; 
+    color:black; 
+    border-collapse: collapse; 
+    font-size: 20px; 
+    font-family: 'Lucida Sans',  
+        'Lucida Sans Regular',  
+        'Lucida Grande', 
+        'Lucida Sans Unicode',  
+        Geneva, Verdana, sans-serif; 
+} 
+th { 
+    color:black;  
+    border-collapse: collapse;  
+} 
+td:hover { 
+    background:grey; 
+} 
+
+/* donut chart */
+
+
+
+  
+
